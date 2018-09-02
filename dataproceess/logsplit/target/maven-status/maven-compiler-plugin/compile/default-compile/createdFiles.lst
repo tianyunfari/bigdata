@@ -1,0 +1,4 @@
+com\bigdata\mapreduce\LogSplitMR$MyMapper.class
+com\bigdata\model\NginxLogModel.class
+com\bigdata\mapreduce\LogSplitMR.class
+com\bigdata\factory\NginxFactory.class

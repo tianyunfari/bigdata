@@ -1,0 +1,4 @@
+com\djt\factory\NginxFactory.class
+com\djt\mapreduce\LogSplitMR$MyMapper.class
+com\djt\model\NginxLogModel.class
+com\djt\mapreduce\LogSplitMR.class

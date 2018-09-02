@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bigdata.flume.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\big_data\maven_project\logflume\target\test-classes;E:\big_data\maven_project\logflume\target\classes;E:\big_data\maven\repository\junit\junit\4.11\junit-4.11.jar;E:\big_data\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-core\1.7.0\flume-ng-core-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-sdk\1.7.0\flume-ng-sdk-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-configuration\1.7.0\flume-ng-configuration-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-auth\1.7.0\flume-ng-auth-1.7.0.jar;E:\big_data\maven\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\big_data\maven\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;E:\big_data\maven\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;E:\big_data\maven\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\big_data\maven\repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar;E:\big_data\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\big_data\maven\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;E:\big_data\maven\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;E:\big_data\maven\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;E:\big_data\maven\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;E:\big_data\maven\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;E:\big_data\maven\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;E:\big_data\maven\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;E:\big_data\maven\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;E:\big_data\maven\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;E:\big_data\maven\repository\org\tukaani\xz\1.0\xz-1.0.jar;E:\big_data\maven\repository\org\apache\avro\avro-ipc\1.7.4\avro-ipc-1.7.4.jar;E:\big_data\maven\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;E:\big_data\maven\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\big_data\maven\repository\io\netty\netty\3.9.4.Final\netty-3.9.4.Final.jar;E:\big_data\maven\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;E:\big_data\maven\repository\org\mortbay\jetty\servlet-api\2.5-20110124\servlet-api-2.5-20110124.jar;E:\big_data\maven\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;E:\big_data\maven\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;E:\big_data\maven\repository\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar;E:\big_data\maven\repository\org\apache\thrift\libthrift\0.9.0\libthrift-0.9.0.jar;E:\big_data\maven\repository\org\apache\httpcomponents\httpclient\4.1.3\httpclient-4.1.3.jar;E:\big_data\maven\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;E:\big_data\maven\repository\org\apache\httpcomponents\httpcore\4.1.3\httpcore-4.1.3.jar;E:\big_data\maven\repository\org\apache\mina\mina-core\2.0.4\mina-core-2.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3281143185914828271\surefirebooter7133716681180085674.jar C:\Users\Administrator\AppData\Local\Temp\surefire3281143185914828271 2018-08-06T15-46-06_661-jvmRun1 surefire6714880704080682230tmp surefire_05254717735556787280tmp"/>
+    <property name="surefire.test.class.path" value="E:\big_data\maven_project\logflume\target\test-classes;E:\big_data\maven_project\logflume\target\classes;E:\big_data\maven\repository\junit\junit\4.11\junit-4.11.jar;E:\big_data\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-core\1.7.0\flume-ng-core-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-sdk\1.7.0\flume-ng-sdk-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-configuration\1.7.0\flume-ng-configuration-1.7.0.jar;E:\big_data\maven\repository\org\apache\flume\flume-ng-auth\1.7.0\flume-ng-auth-1.7.0.jar;E:\big_data\maven\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;E:\big_data\maven\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;E:\big_data\maven\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;E:\big_data\maven\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;E:\big_data\maven\repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar;E:\big_data\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\big_data\maven\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;E:\big_data\maven\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;E:\big_data\maven\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;E:\big_data\maven\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;E:\big_data\maven\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;E:\big_data\maven\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;E:\big_data\maven\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;E:\big_data\maven\repository\org\xerial\snappy\snappy-java\1.0.4.1\snappy-java-1.0.4.1.jar;E:\big_data\maven\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;E:\big_data\maven\repository\org\tukaani\xz\1.0\xz-1.0.jar;E:\big_data\maven\repository\org\apache\avro\avro-ipc\1.7.4\avro-ipc-1.7.4.jar;E:\big_data\maven\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;E:\big_data\maven\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\big_data\maven\repository\io\netty\netty\3.9.4.Final\netty-3.9.4.Final.jar;E:\big_data\maven\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;E:\big_data\maven\repository\org\mortbay\jetty\servlet-api\2.5-20110124\servlet-api-2.5-20110124.jar;E:\big_data\maven\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;E:\big_data\maven\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;E:\big_data\maven\repository\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar;E:\big_data\maven\repository\org\apache\thrift\libthrift\0.9.0\libthrift-0.9.0.jar;E:\big_data\maven\repository\org\apache\httpcomponents\httpclient\4.1.3\httpclient-4.1.3.jar;E:\big_data\maven\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;E:\big_data\maven\repository\org\apache\httpcomponents\httpcore\4.1.3\httpcore-4.1.3.jar;E:\big_data\maven\repository\org\apache\mina\mina-core\2.0.4\mina-core-2.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="basedir" value="E:\big_data\maven_project\logflume"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3281143185914828271\surefirebooter7133716681180085674.jar"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\big_data\maven\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="E:\big_data\maven_project\logflume"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_161\bin;D:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\hadoop2.6\hadoop-2.6.0\bin;E:\big_data\maven\apache-maven-3.3.3\bin;E:\development_tools\mysql\bin;D:\Python27;D:\Program Files\gradle\gradle-3.5\bin;D:\scala\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.bigdata.flume.AppTest" time="0.001"/>
+</testsuite>

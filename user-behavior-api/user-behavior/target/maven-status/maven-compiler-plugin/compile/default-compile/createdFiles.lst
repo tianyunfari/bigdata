@@ -1,0 +1,10 @@
+com\djt\model\SingleAppUseInfo.class
+com\djt\service\UserBehaviorService.class
+com\djt\common\HBaseClient.class
+com\djt\request\RegisteRequest.class
+com\djt\request\AppUseInfoRequest.class
+com\djt\model\PackageTimeLenModel.class
+com\djt\controller\BaseController.class
+com\djt\controller\UserBehaviorController.class
+com\djt\request\AppUseInfoAvatarRequest.class
+com\djt\controller\convert\JacksonHttpMessageConverter.class

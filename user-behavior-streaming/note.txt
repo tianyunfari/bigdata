@@ -1,0 +1,3 @@
+/home/hadoop/flume/bin/flume-ng agent --conf /home/hadoop/flume/conf -f /data/work/mobile/collect-test.conf -n a1
+
+

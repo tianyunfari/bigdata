@@ -1,0 +1,64 @@
+CREATE EXTERNAL TABLE tab_pv(
+urlType STRING,
+requestTIime STRING,
+ip STRING,
+proID STRING,
+rproID STRING,
+provinceId STRING,
+cityId STRING,
+ispId STRING,
+clientType STRING,
+fck STRING,
+macInfo STRING,
+userId STRING,
+sessionId STRING,
+pvId STRING,
+config STRING,
+urlInfo STRING,
+urlFirstId STRING,
+urlSecondId STRING,
+urlThirdId STRING,
+referUrlInfoStr STRING,
+referUrlFirstId STRING,
+referUrlSecondId STRING,
+referUrlThirdId STRING,
+channelId STRING)
+PARTITIONED BY (day string)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
+
+ALTER TABLE tab_pv ADD IF NOT EXISTS PARTITION( day='20170524') LOCATION '/flume/format/pv/20170524';
+ALTER TABLE tab_pv ADD IF NOT EXISTS PARTITION( day='20170525') LOCATION '/flume/format/pv/20170525';
+ALTER TABLE tab_pv ADD IF NOT EXISTS PARTITION( day='20170526') LOCATION '/flume/format/pv/20170526';
+
+CREATE TABLE tab_pv_sums(
+date string,
+cityId STRING,
+pv bigint
+)
+PARTITIONED BY (day string)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
+
+insert overwrite table tab_pv_sums partition(day='20170524')
+select day as date,cityId,count(0) as pv
+from tab_pv
+where day='20170524'
+group by day,cityId
+
+
+CREATE TABLE `tab_pv` (
+  `day` varchar(10) not null,
+  `cityId` int NOT NULL,
+  `pv` bigint NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+./sqoop export --connect jdbc:mysql://hadoop1:3306/report?characterEncoding=utf8 --username root --password root --table tab_pv --fields-terminated-by '\t' --export-dir /flume/format/pv/20170524 --null-non-string '0' --null-string '0'
+
+sqoop export --connect jdbc:mysql://hadoop1:3306/report?characterEncoding=utf8 \
+--table tab_pv \
+--username root --password root \
+--export-dir /hive/warehouse/tab_pv_sums/day=20170524  \
+--columns day,cityId,pv \
+--input-fields-terminated-by '\t'
+
+./sqoop list-databases --connect jdbc:mysql://hadoop1:3306/report --username root --password root
